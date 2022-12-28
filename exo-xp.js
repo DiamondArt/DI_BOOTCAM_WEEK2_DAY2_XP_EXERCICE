@@ -25,8 +25,8 @@ if(x>y){
 let newDog = "Chihuahua";
 
 console.log(newDog.length); // display length of newDog
-newDog.toUpperCase() // display in uppercase
-newDog.toLowerCase() // display in lowercase
+console.log(newDog.toUpperCase()) // display in uppercase
+console.log(newDog.toLowerCase()); // display in lowercase
 
 if(newDog == "Chihuahua"){
     console.log("I love Chihuahuas, it's my favorite dog breed");
