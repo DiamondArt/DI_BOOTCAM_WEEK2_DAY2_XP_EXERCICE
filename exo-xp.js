@@ -46,10 +46,14 @@ if(newDog == "Chihuahua"){
 
 let nbre = prompt("Hello help me to understand even and odd number, enter a number please")
 
-if(nbre%2 == 0){
-    console.log(`${nbre} is an even number`);
+if(!isNaN(nbre)){
+    if(nbre%2 == 0){
+        console.log(`${nbre} is an even number`);
+    }else{
+        console.log(`${nbre} is an odd number`);
+    }
 }else{
-    console.log(`${nbre} is an odd number`);
+    alert("Invalid number, refresh page to try again")
 }
 
 /* 
