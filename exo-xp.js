@@ -79,3 +79,14 @@ else if(userDim === 1){
 }else{
     console.log('no one is online');
 }
+
+
+
+
+
+/**
+Correcteur: Yannick GOUGUIA 
+Tu n'as pas fait les exercices XP Gold et Ninja
+
+Merci de les faire
+*/
